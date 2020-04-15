@@ -21,7 +21,8 @@ You get start to development by mbed cli is:
 # cd example
 # mbed import http://os.mbed.com/teams/ST/code/mbed-os-example-blinky/
 # cd mbed-os-example-blinky
-# mbed compile -t {YOUR_TARGET_BOARD}
+# mbed config --global {YOUR_TARGET_BOARD}
+# mbed compile
 ```
 
 If complete compile, then you can get a image file at "./BUILD/{YOUR_TARGET_BOARD}/mbed-os-example-blinky.bin"
