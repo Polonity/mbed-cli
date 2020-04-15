@@ -3,7 +3,18 @@ This image contents is :
 - arm-gcc-none-eabi compiler
 - mbed cli (and packages to need for working mbed cli)
 
-Using image, it's procedure for that you get start to development by mbed cli :
+## Quick Start
+
+1. Install visual studio code.
+1. Install Remote Development visual studio code extention.
+1. Open the root directory of this git repogitory with visual studio code.
+1. visual studio code notify you "Folder contains a dev container configuration file. Reopen folder to develop in a container". You ask "Reopen in Container"
+
+Your container is opened.
+
+## Example build image with mbed-cli 
+
+You get start to development by mbed cli is:
 
 ```
 # mkdir example
